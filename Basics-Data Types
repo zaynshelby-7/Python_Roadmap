@@ -1,0 +1,81 @@
+### Basics ###
+# Python Data Types Examples
+
+
+
+
+# String
+name = "Zayn"
+print("Name: ", name, type(name))
+
+
+
+
+# Integer
+age = 20
+print("Age:  ", age, type(age))
+
+
+
+
+# Float
+height = 6.2
+print("Height: ", height, type(height))
+
+
+
+
+# Boolean
+is_student = True
+print("Is Student: ", is_student, type(is_student))
+
+
+
+
+# List
+fruit = ["Apple", "Banana", "Cherry", "Mango"]
+print("Fruit: ", fruit, type(fruit))
+print("First Fruit: ", fruit[0])
+print("Last Fruit: ", fruit[3])  # Also can use fruit[-1] for last element
+
+
+
+
+
+
+# Tuple
+# A tuple is an immutable sequence type
+# Tuples are used to store multiple items in a single variable, similar to lists, but they cannot be changed after creation.
+# remove or append is not allowed in tuples
+colors = ("Red", "Green", "Blue")
+print("Colors: ", colors, type(colors))
+print("First Color: ", colors[0])
+print("Last Color: ", colors[2])  # Also can use colors[-1] for last element
+
+
+
+
+
+# Dictionary
+# A dictionary is a collection of key-value pairs
+person = {
+    "name": "Zayn",
+    "age": 20,
+    "is_student": True,
+    "height": 6.2,
+    "hobbies": ["Reading", "Coding", "Gaming"]
+}
+print("Person: ", person, type(person))
+print("Person Name: ", person["name"])
+print("Person Age: ", person["age"])
+
+
+
+
+# Set
+# A set is an unordered collection of unique items
+my_set = {1, 2, 3, 4, 5}
+print("My Set: ", my_set, type(my_set))
+# Adding an element to the set
+my_set.add(6)
+print("Updated Set: ", my_set)
